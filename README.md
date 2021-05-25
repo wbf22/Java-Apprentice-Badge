@@ -1,11 +1,11 @@
 
 # Java Apprentice Badge
 
-#####Brandon Fowler Membership Team
+##### Brandon Fowler Membership Team
 
-###TASKS:
+### TASKS:
 
-###Lifecycle of an Object: 
+### Lifecycle of an Object: 
 When an object is first created, the class file is 
 loaded by locating the class file on the disk. Java
 then initializes the static fields to be used in 
@@ -16,7 +16,7 @@ constructor. Once the object no longer has any
 active references Java deletes the object. This is
 done by Java's garbage collector.
 
-###Basic Data Types in Memory
+### Basic Data Types in Memory
 Primitive data types such as boolean, int, and longs 
 are stored in the stack as the code is read. Data
 types such as arrays, strings, and objects are stored
@@ -24,14 +24,14 @@ in the heap. A reference to these objects is stored in
 the stack during runtime. 
 
 
-###Breaking StringBuilder
+### Breaking StringBuilder
 Run main() in breakStringBuilder.java. I found that the 
 StringBuilder on my computer can only have 603,979,774 
 characters or 1,207,959,548 bytes before it runs
 out of heap. 
 
 
-###Comparing StringBuffer and StringBuilder
+### Comparing StringBuffer and StringBuilder
 Running breakStringBuffer I found that it also crashed at
 603,979,774 characters. But it did take a lot longer
 for StringBuffer to fill up then StringBuilder. 
@@ -40,9 +40,9 @@ StringBuffer is thread safe. So if you're sure you're
 not using threads StringBuilder would be the better
 option. 
 
-###Comparing Data Structures
+### Comparing Data Structures
 
-#####ArrayList
+##### ArrayList
 Arraylists have the advantage of fast random access.
 They are also stored sequentially which can simplify
 some operations. They are also quick to iterate across.
@@ -51,40 +51,40 @@ elements as all elements that follow must be shifted.
 Resizing which takes place automatically is also 
 expensive. 
 
-#####LinkedList
+##### LinkedList
 LinkedLists very efficient removal and insertion. No
 need to preallocate memory. Slower and more inefficient
 iteration and random access. 
 
-#####HashMap
+##### HashMap
 Hashmaps are useful in storing key value pairs. They
 also iterate and access elements quickly. Unfortunately 
 resizing is expensive and performance drops as the map 
 fills up. 
 
-#####HashSet
+##### HashSet
 HashSet allows null values and enforces there are no
 duplicate values. But insertion order is not maintained.
 
-#####TreeSet
+##### TreeSet
 TreeSet also ensures unique elements and provides fast
 access. It also stores elements in ascending order. 
 
-###Sorting Files
+### Sorting Files
 Run main() in FileSorter.java. Look in 'resources' 
 package for output.
 
-###Reverse Sorting a File
+### Reverse Sorting a File
 Run main() in FileSorterReverse.java. Look in 'resources' 
 package for output.
 
 
-###Exception Handling 
+### Exception Handling 
 Exceptions.java demonstrates handling for checked and 
 unchecked exceptions. 
 
 
-###Enums
+### Enums
 In BloodType.java I created an enum. Enums are most useful 
 for when you want to classify objects. They allow you to 
 assign a name to a numerical value instead of having to 
@@ -94,7 +94,7 @@ classification. For example, in BLoodType.java the enum
 have to remember 2 represents blood type AB. 
 
 
-###Common Logic in Classes
+### Common Logic in Classes
 All classes and logic are in the logicClasses package.
 The hand class has 5 fingers. It reuses the logic 
 'extendFinger' when it calls runs 'openHand'. This is
@@ -129,12 +129,12 @@ make it harder to understand the code. Associating logic
 with classes is generally a better practice as it 
 improves organization. 
 
-###Overloading Constructors
+### Overloading Constructors
 Sauce.java contains examples of constructor chaining. 
 There is a constructor for every combination of 
 parameters as long at least one parameter is provided. 
 
-###Good and Bad Encapsulation
+### Good and Bad Encapsulation
 GoodEncapsulation.java and BadEncapsulation.java show
 examples of good and bad encapsulation. The purpose
 of encapsulation is to allow a user of the class to 
@@ -142,7 +142,7 @@ use it without a knowledge of the inner workings.
 Making fields public that are not necessary for the
 user to know is bad encapsulation. 
 
-###Passing Parameters
+### Passing Parameters
 In ParamTypesToMethod.java are some examples of 
 passing by value and reference in java. In Java
 primitive types and the String class are passed by 
@@ -154,7 +154,7 @@ reassigned with the 'new' keyword or if a String
 or primitive type that the value will not be changed. 
 
 
-###Access Modifiers
+### Access Modifiers
 In the accessModifiers package is a parent-child
 relationship between two classes that demonstrates
 how the access modifiers public, private, and
@@ -172,7 +172,7 @@ Protected is used to allow child classes to access
 members of a parent class without letting a user
 access them.
 
-###Virtual Methods
+### Virtual Methods
 In the virtualMethods package are three classes. 
 The AI is an abstract class which is extended by
 Jenny and Jerry. The abstract method 'think' in 
@@ -182,11 +182,11 @@ an array list of type AI. Java is able to call
 the think method on both without knowing what
 subclass the two AI are. 
 
-###InstanceOf and Type Casting
+### InstanceOf and Type Casting
 The package 'types' shows examples of casting
 and instanceof in Main.java.
 
-###Overriding Methods
+### Overriding Methods
 The 'overriding' package contains a parent class
 'Bird' and a child class 'Chicken'. 'Chicken'
 overrides the 'makeNoiseMethod' in 'Bird'.
@@ -199,7 +199,7 @@ can sometimes lead to unexpected behaviour when a
 child overrides the method and changes its 
 behaviour significantly. 
 
-###Overloading
+### Overloading
 In Pig.java in the overloading package I overloaded
 both the constructor and the squeal function.
 <br />
@@ -211,7 +211,7 @@ something. Though sometimes it can make things
 more inconsistent and confusing for the class 
 user. 
 
-###Logging
+### Logging
 In the logging package the Main.java class shows 
 examples of logging with the different levels. In
 the log4j.properties the logger is set up to log

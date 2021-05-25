@@ -1,0 +1,8 @@
+2021-05-25 11:50:26 ERROR Main:15 - error baby
+2021-05-25 11:50:26 WARN  Main:16 - warn baby
+2021-05-25 11:50:26 INFO  Main:17 - info baby
+2021-05-25 11:50:26 DEBUG Main:18 - debug baby
+2021-05-25 11:50:26 ERROR Main:22 - culprit="Sauce{spiceLevel=7, herbs=null, milkBased=false, origin='Utah'}"
+2021-05-25 11:50:26 WARN  Main:23 - culprit="Sauce{spiceLevel=7, herbs=null, milkBased=false, origin='Utah'}"
+2021-05-25 11:50:26 INFO  Main:24 - culprit="Sauce{spiceLevel=7, herbs=null, milkBased=false, origin='Utah'}"
+2021-05-25 11:50:26 DEBUG Main:25 - culprit="Sauce{spiceLevel=7, herbs=null, milkBased=false, origin='Utah'}"

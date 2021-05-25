@@ -1,0 +1,12 @@
+2021-05-25 11:28:31 ERROR Main:12 - error baby
+2021-05-25 11:28:31 WARN  Main:13 - warn baby
+2021-05-25 11:28:31 INFO  Main:14 - info baby
+2021-05-25 11:28:31 DEBUG Main:15 - debug baby
+2021-05-25 11:30:07 ERROR Main:12 - error baby
+2021-05-25 11:30:07 WARN  Main:13 - warn baby
+2021-05-25 11:30:07 INFO  Main:14 - info baby
+2021-05-25 11:30:07 DEBUG Main:15 - debug baby
+2021-05-25 11:30:58 ERROR Main:12 - error baby
+2021-05-25 11:30:58 WARN  Main:13 - warn baby
+2021-05-25 11:30:58 INFO  Main:14 - info baby
+2021-05-25 11:30:58 DEBUG Main:15 - debug baby

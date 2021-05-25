@@ -4,6 +4,7 @@
 ##### Brandon Fowler Membership Team
 
 ### TASKS:
+Below are all the tasks for the Java Apprentice Badge
 
 ### Lifecycle of an Object: 
 When an object is first created, the class file is 

@@ -1,8 +1,10 @@
 
 #Java Apprentice Badge
+
 #####Brandon Fowler Membership Team
 
 ###TASKS:
+
 ###Lifecycle of an Object: 
 When an object is first created, the class file is 
 loaded by locating the class file on the disk. Java
@@ -39,6 +41,7 @@ not using threads StringBuilder would be the better
 option. 
 
 ###Comparing Data Structures
+
 #####ArrayList
 Arraylists have the advantage of fast random access.
 They are also stored sequentially which can simplify
